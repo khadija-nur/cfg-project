@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #67b0d1;
+  color: #f26f33;
 }
 
 a:hover {
@@ -56,6 +56,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
+
   font-family: "Raleway", sans-serif;
 }
 
@@ -216,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #67b0d1;
+  color: #f26f33;
 }
 
 .nav-menu .drop-down > a:after {
@@ -311,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #67b0d1;
+  color: #f26f33;
   text-decoration: none;
 }
 
@@ -532,7 +533,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #f26f33;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -557,7 +558,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #f26f33;
   margin-bottom: 10px;
 }
 
@@ -585,9 +586,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# facts
 --------------------------------------------------------------*/
-.services .icon-box {
+.facts .icon-box {
   padding: 20px;
   position: relative;
   overflow: hidden;
@@ -598,7 +599,7 @@ section {
   z-index: 1;
 }
 
-.services .iconbox-orangutan {
+.facts .iconbox-orangutan {
   padding: 0;
   position: relative;
   overflow: hidden;
@@ -611,7 +612,7 @@ section {
 
 
 
-.services .icon-box::before {
+.facts .icon-box::before {
   content: '';
   position: absolute;
   background: white;
@@ -623,44 +624,44 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.facts .icon-box:hover::before {
   background: #f26f33;
   top: 0;
   border-radius: 0px;
 }
 
-.services .icon {
+.facts .icon {
   margin-bottom: 15px;
 }
 
-.services .icon i {
+.facts .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #f26f33;
   transition: all 0.3s ease-in-out;
 }
 
-.services .title {
+.facts .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.facts .title a {
   color: #111;
 }
 
-.services .description {
+.facts .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.facts .icon-box:hover .title a, .facts .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.facts .icon-box:hover .icon i {
   color: #fff;
 }
 
@@ -679,7 +680,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #67b0d1;
+  color: #f26f33;
   float: left;
 }
 
@@ -783,7 +784,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: #f26f33;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -936,7 +937,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #67b0d1 !important;
+  background-color: #f26f33 !important;
 }
 
 @media (max-width: 767px) {
@@ -1012,7 +1013,7 @@ section {
 }
 
 .help .member .social a:hover {
-  color: #67b0d1;
+  color: #f26f33;
 }
 
 .help .member .social i {
@@ -1043,7 +1044,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #67b0d1;
+  color: #f26f33;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1122,7 +1123,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #67b0d1;
+  background-color: #f26f33;
 }
 
 .contact .php-email-form input {
@@ -1134,7 +1135,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #67b0d1;
+  background: #f26f33;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1170,19 +1171,22 @@ section {
   background: #263f49;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
 }
+.mt-3, .my-3 {
+  margin: auto;
+}
 
 #footer .footer-top .footer-info {
-  margin-top: -90px;
+  margin :auto ;
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
-  border-top: 4px solid #67b0d1;
+  border-top: 4px solid #f26f33;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1218,7 +1222,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #f26f33;
   color: #fff;
   text-decoration: none;
 }
@@ -1292,7 +1296,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #67b0d1;
+  background: #f26f33;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
