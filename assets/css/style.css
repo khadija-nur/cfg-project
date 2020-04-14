@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #f26f33;
+  background: rgba(47, 135, 60, 0.7);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #86c0da;
+  background: rgba(47, 135, 60, 1.0);
   transition: background 0.2s ease-in-out;
 }
 
@@ -395,17 +395,22 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero-orangutan {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpeg") top center ;
   background-size: cover;
   position: relative;
-  /* background-color: rgba(0, 0, 0, 0.9); */
-  /* opacity: 0.9; */
+}
+#hero-food {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/Food/mangositeen.jpg") top center ;
+  background-size: cover;
+  position: relative;
 }
 
-#hero .hero-container {
+#hero-food .hero-container, #hero-orangutan .hero-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -418,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#hero h1 {
+#hero-food h1, #hero-orangutan  h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -428,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: -1px 0 2px #083813;
 }
 
-#hero h2 {
+#hero-food h2, #hero-orangutan  h2 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 20px;
@@ -437,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: -1px 0 2px #083813;
 }
 
-#hero .btn-get-started {
+#hero-food .btn-get-started, #hero-orangutan  .btn-get-started {
   font-size: 36px;
   display: inline-block;
   padding: 4px 0;
@@ -451,23 +456,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#hero-food .btn-get-started:hover, #hero-orangutan  .btn-get-started:hover {
   padding-top: 8px;
   background: rgba(255, 255, 255, 0.15);
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #hero-food, #hero-orangutan  {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero-food h1, #hero-orangutan  h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #hero-food h2, #hero-orangutan  h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -482,7 +487,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f4f9fc;
+  background-color: rgba(47, 135, 60, 0.1);
 }
 
 .section-title {
@@ -519,8 +524,6 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
-  background-size: cover;
   padding: 60px 0;
   position: relative;
 }
@@ -943,7 +946,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(103, 176, 209, 0.95);
+  background: rgba(47, 135, 60, 0.5);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -1278,7 +1281,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: rgba(242, 111, 51, 1.0);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 18px;
@@ -1319,7 +1322,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #083813;
+  background: rgba(47, 135, 60, 0.5);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1332,7 +1335,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f26f33;
+  background: rgba(47, 135, 60, 1.0);
   color: #fff;
   text-decoration: none;
 }
@@ -1417,7 +1420,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid rgba(47, 135, 60, 1);
   text-align: center;
   padding-top: 30px;
 }
