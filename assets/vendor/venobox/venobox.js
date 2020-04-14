@@ -718,9 +718,8 @@
                     content.find(">:first-child").addClass('vbox-figlio').css({
                         'width': framewidth,
                         'height': frameheight,
-                        'padding': border,
-                        'background': bgcolor
-                    });
+                        'padding': border
+                      });
 
                     $('img.vbox-figlio').on('dragstart', function(event) {
                         event.preventDefault();
