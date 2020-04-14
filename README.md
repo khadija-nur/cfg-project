@@ -5,23 +5,23 @@
 CFG Group Project - Introduction to Web Development  
 Team members: *@khadija-nur* and *@estheraruma8*
 
-**DISCOVER BORNEO**  
+# **DISCOVER BORNEO**  
 ## About  
 We used our newly learnt skills to create a multipage website about the island of Borneo; the food and orangutans.  
 The website uses a bootstrap template and is configured to achieve the end results we wanted. 
 The site is deployed using Netlify. 
 
-# Navbar
+## Navbar
 We made a navbar that is responsive and changes color on scroll. It contains links to the **About** and **Contact** sections on the homepage as well as a link to the **Food** and **Orangutans** pages 
 
-# Homepage  
+## Homepage  
 We embedded a background hero video that autoplays when the website loads.  
 The contact section contains an iframe with a map set to the CFG HQ in London and a live form connected with Netflify that will notify me whenever theres a submission.
 
-# Food  
+## Food  
 This page contains a hero parallax image and a modal (using venobox) showing the foods each with an outbound link and maximize button.  
 
-# Orangutans  
+## Orangutans  
 This page contains a hero parallax image.  
 The facts section has an info section that changes colour and orangutan image that zooms in on hover.  
 The count/stats section has a ticker which counts up whenever page loads with custom icofont images.  
