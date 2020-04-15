@@ -4,7 +4,7 @@
 
 ## **DISCOVER BORNEO**  
 CFG Group Project - Introduction to Web Development  
-Team members: *@khadija-nur* and *@estheraruma8*
+Team members: *@khadija-nur* and *@estheraruma*
 
 ## About  
 We used our newly learnt skills to create a multipage website about the island of Borneo; the food and orangutans.  
