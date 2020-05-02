@@ -4,11 +4,11 @@
 
 ## **DISCOVER BORNEO**  
 CFG Group Project - Introduction to Web Development  
-Team members: *@khadija-nur* and *@estheraruma*
+Team members: [Khadija Nur](https://github.com/khadija-nur) and [Esther Aruma](https://github.com/estheraruma)
 
 ## About  
 We used our newly learnt skills to create a multipage website about the island of Borneo; the food and orangutans.  
-The website uses a bootstrap template and is configured to achieve the end results we wanted. 
+The website uses bootstrap and is configured to achieve the end results we wanted. 
 The site is deployed using Netlify. 
 
 ## Navbar
